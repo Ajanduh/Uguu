@@ -13,7 +13,7 @@ function save_file ($file, $name, $arg, $type){
                 include_once('error_meow.php');
                 exit(0);
                 }else{
-                    exit('File type not allowed.');
+                    exit('Sorry wrong file type.');
                 }
                 }
             $file_name = gen_name('random', $ext);
