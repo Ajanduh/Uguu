@@ -2,7 +2,7 @@
 function save_file ($file, $name, $arg, $type){
     //Where to save
     $path='/home/neku/www/files/';
-    $block = array('exe', 'scr', 'rar', 'com', 'vbs', 'bat', 'cmd', 'html', 'htm', 'msi');
+    $block = array('exe', 'scr', 'rar', 'com', 'vbs', 'bat', 'cmd', 'html', 'htm', 'msi','gz','tar');
     //Generate name depending on arg
     switch($arg){
         case 'random':
